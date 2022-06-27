@@ -5,7 +5,6 @@ int startIdx(vector<int>&a,int x){
 	while(l<=r){
 		int mid=l+(r-l)/2; 
 		if(a[mid]>x){
-			ans=mid;  
 			r=mid-1; 
 		}
 		else if(a[mid]==x) {
